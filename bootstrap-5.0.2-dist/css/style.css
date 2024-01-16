@@ -1,0 +1,155 @@
+body,p,span{
+  
+    font-family: 'Rubik', sans-serif;
+}
+ 
+h1,h2,h3,h4,h5,h6,a{
+    font-family: 'Roboto', sans-serif;
+}
+ /* header part start */
+
+ nav img{
+    width: 150px;
+ }
+.main_header .container-fluid,
+.slider_section .container_fluid{
+    max-width: 1480px;
+   
+}
+
+ul.primary_menu{}
+ul.primary_menu li{
+list-style: none;
+}
+
+ul.primary_menu li a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    font-weight: 700;
+    color: #111;
+    font-size: 16px;
+}
+ul.primary_menu li a:hover{
+    color: #e73c3e;
+}
+
+
+.header_info{}
+.header_search{
+    width: 60px;
+    font-size: 17px;
+    text-align: center;
+    color: #111;
+    margin-right: 20px;
+    border-right: 1px solid #c5c5c5;
+}
+.header_call{
+    width: 220px;
+   
+}
+.header_call_icon{
+   font-size: 30px;
+   color: #e73a3e;
+   
+}
+.header_call_info span{
+    color:#606060 ;
+}
+.header_call_info a{
+    text-decoration: none;
+    color:#111;
+    font-size: 14px;
+    font-weight: 600;
+}
+body .btn-primary{
+    background-color: #e73a3e !important;
+    border-color: #e73a3e;
+    padding: 7px 35px;
+    font-size: 14px;
+    position: relative;
+    z-index: 1;
+}
+body .btn-primary:hover{
+    border-color: #111;
+  
+}
+body .btn-primary::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 0;
+    background-color: #111;
+     border-color: #111;
+     z-index: -1;
+     transition: 0.3s;
+}
+body .btn-primary:hover::after{
+   width: 100%;
+}
+
+ /* header part end */
+
+
+
+/* slider part start */
+
+
+.slider_section{
+  background-image: url(img/main-banner2.jpg);
+ background-position:top-center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.slider_content_wrap{ 
+     padding: 200px 150px;
+     height: 91vh;
+     display: flex;
+     align-items: center;
+     position: relative;
+}
+
+.slider_content h6 {
+    color: #e73a3e;
+}
+.slider_content h1 {
+    font-size: 68px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    padding-right:50px;
+    font-weight: 700;
+}
+.slider_content p {
+    font-weight: 400;
+    font-size: 20px;
+    color: #606060;
+}
+.slider_social{
+    position: absolute;
+    bottom: 10px;
+    left: 150px;
+    display: inline-block;
+    font-size: 18px;
+}
+.slider_social ul{
+   padding-left: 0;
+}
+.slider_social ul li{
+    list-style: none;
+}
+.slider_social ul li span{
+    font-size: 18px;
+    display: inline-block;
+    margin-right: 50px;
+    position: relative;
+}
+.slider_social ul li a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 12px;
+    color: #111;
+}
+
+/* slider part end */
